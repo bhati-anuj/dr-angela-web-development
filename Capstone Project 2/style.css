@@ -1,0 +1,59 @@
+.header-container{
+    background-color: rgb(85, 87, 86);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.project-container{
+
+    display: grid;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 1%;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 1%;
+  
+   
+}
+.card{
+    box-shadow: 10px 10px 10px  rgb(85, 82, 82);
+}
+.card>img{
+    padding: 15%;
+    height: 30rem;
+
+}
+
+.card-text{
+    font-size: x-large;
+}
+.education{
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 75%;
+}
+
+
+@media (max-width: 850px){
+    .header-container{
+        display: block;
+        padding-top: 50px;
+    }
+    .profile-pic{
+       
+        width: 80%;
+    }
+
+    .project-container{
+        display: block;
+    }
+
+    .card{
+        width: 100%;
+        border: 2px solid red;
+    }
+}
